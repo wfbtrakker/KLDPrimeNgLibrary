@@ -25,6 +25,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Controls and Components
 
-Popup Note Button
+Popup Note Buttons
 
 Table Data Control
