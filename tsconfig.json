@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "kldprime-ng-lib": [
+        "dist/kldprime-ng-lib"
+      ],
+      "kldprime-ng-lib/*": [
+        "dist/kldprime-ng-lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
