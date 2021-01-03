@@ -1,6 +1,6 @@
 {
   "name": "kldprime-ng-lib",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Enhanced angular library using PrimeNG controls.",
   "author": "scott Lovy",
   "repository": {
@@ -14,10 +14,12 @@
     "angular"
   ],
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "primeng": "^11.1.0-rc.1"
   },
   "peerDependencies": {
     "@angular/common": "^8.1.3",
-    "@angular/core": "^8.1.3"
+    "@angular/core": "^8.1.3",
+    "primeng": "^11.1.0-rc.1"
   }
 }

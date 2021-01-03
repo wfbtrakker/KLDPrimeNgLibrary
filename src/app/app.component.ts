@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'KLDPrimeNgLibrary';
+  selectedValues: string[] = ['val1', 'val2'];
+  numberValue = 1;
 }
