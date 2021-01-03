@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { KLDPrimeNgLibComponent } from './kldprime-ng-lib.component';
 
@@ -6,7 +6,7 @@ describe('KLDPrimeNgLibComponent', () => {
   let component: KLDPrimeNgLibComponent;
   let fixture: ComponentFixture<KLDPrimeNgLibComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ KLDPrimeNgLibComponent ]
     })
