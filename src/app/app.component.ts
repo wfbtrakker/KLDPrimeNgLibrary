@@ -9,4 +9,7 @@ export class AppComponent {
   title = 'KLDPrimeNgLibrary';
   selectedValues: string[] = ['val1', 'val2'];
   numberValue = 1;
+
+  labelValue = 'test1';
+  stringValue = 'test2';
 }

@@ -6,5 +6,8 @@
     "umdModuleIds": {
       "primeng/button": "PrimeNGButton"
     }
-  }
+  },
+  "whitelistedNonPeerDependencies": [
+    "primeng"
+  ]
 }
